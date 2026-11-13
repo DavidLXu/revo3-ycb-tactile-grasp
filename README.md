@@ -129,4 +129,4 @@ docs/media/           compilation video and stills
 - Physics built on [Newton](https://github.com/newton-physics/newton) and
   [NVIDIA Warp](https://github.com/NVIDIA/warp).
 - The Revo3 hand link meshes and fingertip gel meshes in `assets/revo3` come from the Revo3 hand
-  model. Keep this repository private unless sharing them is permitted.
+  model.
