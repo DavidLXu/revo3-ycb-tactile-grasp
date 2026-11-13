@@ -22,10 +22,11 @@ def main():
     p.add_argument('--output', required=True)
     p.add_argument('--device', default='cuda:0')
     p.add_argument('--no-release', action='store_true')
+    p.add_argument('--dt', type=float, default=1 / 30, help='physics step and saved-frame interval (s), e.g. 1/60 for 60 fps video')
     a = p.parse_args()
     out = Path(a.output)
     out.mkdir(parents=True, exist_ok=False)
-    session = GraspSession(a.object, device=a.device)
+    session = GraspSession(a.object, device=a.device, dt=a.dt)
     plan = session.plan['fingers']
     fin = {f: r['s'] for f, r in plan.items()}
     pre = {f: (r['s_contact'] - .25 * (r['s'] - r['s_contact'])) if r['contact'] else .85 * r['s']

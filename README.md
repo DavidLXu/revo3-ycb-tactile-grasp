@@ -84,7 +84,9 @@ halved automatically.
 python -m revo3_grasp.run_grasp --object 013_apple --output outputs/013_apple
 ```
 
-writes `states.npz` (gel positions, curls and pad forces per step) and `report.json`.
+writes `states.npz` (gel positions, curls and pad forces per step) and `report.json`. Add `--dt 0.016666666666666666`
+to simulate 1/60 s steps; every saved step is one video frame, so the render plays in real time
+at 60 fps (the renderer reads the step size from `report.json` for its time labels).
 
 The path-traced videos were rendered with Isaac Sim 5.1 from the textured Revo3 hand USD
 (`revo3_right_bionic_silver.usda`, not included here):
@@ -94,7 +96,7 @@ PYTHONPATH=src <isaac-sim-python> -m revo3_grasp.render_isaac --usd <path>/revo3
   --states outputs/013_apple/states.npz --model assets/ycb/013_apple --output outputs/013_apple/render \
   --title "Revo3 right hand grasping a YCB apple" --wide-dist 0.30 --close-dist 0.13 \
   --close-view 0.25,1,-0.05 --close-shift 0.25,0,0
-ffmpeg -framerate 15 -i outputs/013_apple/render/frames/%04d.png -pix_fmt yuv420p apple.mp4
+ffmpeg -framerate 30 -i outputs/013_apple/render/frames/%04d.png -pix_fmt yuv420p apple.mp4   # use 60 for 1/60 s states
 ```
 
 ## Adding another YCB object

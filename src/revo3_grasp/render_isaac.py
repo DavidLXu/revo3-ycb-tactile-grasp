@@ -259,7 +259,8 @@ try:
         return 'press' if s < .5 else 'hold 10 N' if s < 1 else 'release' if s < 1.5 else 'idle'
 
     rows = []
-    rep_rows = json.loads((Path(a.states).parent / 'report.json').read_text())['rows']
+    run_report = json.loads((Path(a.states).parent / 'report.json').read_text())
+    rep_rows, DT = run_report['rows'], float(run_report.get('dt_s', 1 / 30))
     PH = [r['phase'] for r in rep_rows]
     FMAX = max(2., float(np.ceil(np.linalg.norm(F, axis=2).max())))
     schedule = [int(v) for v in a.pick.split(',')] if a.pick else [0] * a.hold + list(range(nframes))
@@ -298,7 +299,7 @@ try:
         dr.rectangle((14, 14, 640, 100), fill=(30, 33, 40))
         dr.rectangle((14, a.height - 58, 380, a.height - 14), fill=(30, 33, 40))
         dr.rectangle((a.width + 14, 14, a.width + 560, 64), fill=(30, 33, 40))
-        t = (i + 1) / 30
+        t = (i + 1) * DT
         dr.rectangle((14, 14, max(820, 42 + int(dr.textlength(a.title, font=big))), 100), fill=(30, 33, 40))
         dr.text((28, 24), a.title, font=big, fill=(245, 245, 245))
         dr.text((28, 64), 'FEM fingertip gels + GPU IPC · finger motion prescribed · object held fixed', font=small, fill=(225, 225, 225))
