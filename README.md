@@ -6,7 +6,7 @@ the GPU with IPC contact and friction, so you can watch them deform and read the
 each pad. Everything runs from this repository: solver code, hand and gel geometry, object scans
 and precomputed grasp plans.
 
-![All six grasps](docs/media/grasp_all_ycb_halfspeed.mp4)
+Video of all six grasps (half speed): [docs/media/grasp_all_ycb_halfspeed.mp4](docs/media/grasp_all_ycb_halfspeed.mp4)
 
 | ![apple](docs/media/still_013_apple.png) | ![banana](docs/media/still_011_banana.png) |
 |---|---|
