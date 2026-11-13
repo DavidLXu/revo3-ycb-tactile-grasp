@@ -1,0 +1,227 @@
+{
+  "source": "/home/zhangke/revo3_cube_v11_20261007/logs/revo3_cube_4096_v11_surfacefit_face_free_20261006T022806Z/hand_v11.usd",
+  "sha256": "3acc750f2a56affdc22789ebe3c0646e6016f056e30677a30d1b0b37a3419ced",
+  "units": "metres",
+  "boundary_rule": "Attach boundary faces within 0.3 mm of an oppositely oriented rigid DIP visual surface; all other nodes free. This is an assembly assumption, not a CAD adhesive label.",
+  "coating_rule": "All non-attachment boundary triangles; no depth, normal-z or image crop. The complete boundary and volume remain in FEM/IPC.",
+  "interface_tolerance_m": 0.0003,
+  "max_tet_volume_mm3": 2.0,
+  "surface_remesh": "Quadric simplification to 2000 faces; retain curved CAD shape within measured 30 um sampled deviation and 0.2% volume tolerance.",
+  "fingers": [
+    {
+      "finger": "thumb",
+      "body_path": "/revo3_single/Geometry/world/right_thumb_CMP_link/right_thumb_CMR_link/right_thumb_MCP_link/right_thumb_PIP_link/right_thumb_DIP_link",
+      "body_name": "right_thumb_DIP_link",
+      "visual_path": "/revo3_single/Geometry/world/right_thumb_CMP_link/right_thumb_CMR_link/right_thumb_MCP_link/right_thumb_PIP_link/right_thumb_DIP_link/right_thumb_DIP_rubber_link",
+      "collision_path": "/revo3_single/Geometry/world/right_thumb_CMP_link/right_thumb_CMR_link/right_thumb_MCP_link/right_thumb_PIP_link/right_thumb_DIP_link/right_thumb_DIP_rubber_link_1",
+      "vertices": 1486,
+      "tetrahedra": 4892,
+      "boundary_triangles": 2606,
+      "pinned_nodes": 586,
+      "coating_triangles": 1517,
+      "volume_mm3": 1468.7556021313271,
+      "bond_triangles": 1089,
+      "max_interface_gap_m": 0.00023240557619598183,
+      "free_surface_area_mm2": 730.3839102681145,
+      "source_volume_mm3": 1469.2256590943846,
+      "sampled_surface_deviation_m": 2.3568771323407318e-05,
+      "max_tet_edge_condition": 363.8724526370619,
+      "min_tet_singular_m": 1.1884216924371457e-05,
+      "bounds_sensor_m": [
+        [
+          -0.009633833214451538,
+          -0.011606907771204796,
+          -0.007718135123549149
+        ],
+        [
+          0.009643191405072573,
+          0.01159472468139587,
+          0.0077135494788151465
+        ]
+      ],
+      "local_refinement": {
+        "original_vertices": 1183,
+        "original_tetrahedra": 4121,
+        "original_coating_triangles": 911,
+        "added_vertices": 303,
+        "source_sha256": "b93e0443a2c9d711f7c794a055ccea016dae786002ef0a0f9938ef4f1f7c6582",
+        "radius_m": 0.007,
+        "min_edge_m": 0.001
+      }
+    },
+    {
+      "finger": "index",
+      "body_path": "/revo3_single/Geometry/world/right_index_MPR_link/right_index_MCP_link/right_index_PIP_link/right_index_DIP_link",
+      "body_name": "right_index_DIP_link",
+      "visual_path": "/revo3_single/Geometry/world/right_index_MPR_link/right_index_MCP_link/right_index_PIP_link/right_index_DIP_link/right_index_DIP_rubber_link",
+      "collision_path": "/revo3_single/Geometry/world/right_index_MPR_link/right_index_MCP_link/right_index_PIP_link/right_index_DIP_link/right_index_DIP_rubber_link_1",
+      "vertices": 1553,
+      "tetrahedra": 5350,
+      "boundary_triangles": 2616,
+      "pinned_nodes": 620,
+      "coating_triangles": 1449,
+      "volume_mm3": 1419.7059477643609,
+      "bond_triangles": 1167,
+      "max_interface_gap_m": 2.276349883809747e-05,
+      "free_surface_area_mm2": 621.9566043832957,
+      "source_volume_mm3": 1420.481763658053,
+      "sampled_surface_deviation_m": 2.221035381594696e-05,
+      "max_tet_edge_condition": 271.7584276392183,
+      "min_tet_singular_m": 2.348822924546218e-06,
+      "bounds_sensor_m": [
+        [
+          -0.010340341387606289,
+          -0.00891206614001936,
+          -0.0065801160914637155
+        ],
+        [
+          0.010324663016945124,
+          0.00891111145667657,
+          0.006589354707036725
+        ]
+      ],
+      "local_refinement": {
+        "original_vertices": 1245,
+        "original_tetrahedra": 4579,
+        "original_coating_triangles": 833,
+        "added_vertices": 308,
+        "source_sha256": "f9f13691b07240bac995f52077356b605d8389b70dbba301d2c1c395f9c35672",
+        "radius_m": 0.007,
+        "min_edge_m": 0.001
+      }
+    },
+    {
+      "finger": "middle",
+      "body_path": "/revo3_single/Geometry/world/right_middle_MPR_link/right_middle_MCP_link/right_middle_PIP_link/right_middle_DIP_link",
+      "body_name": "right_middle_DIP_link",
+      "visual_path": "/revo3_single/Geometry/world/right_middle_MPR_link/right_middle_MCP_link/right_middle_PIP_link/right_middle_DIP_link/right_middle_DIP_rubber_link",
+      "collision_path": "/revo3_single/Geometry/world/right_middle_MPR_link/right_middle_MCP_link/right_middle_PIP_link/right_middle_DIP_link/right_middle_DIP_rubber_link_1",
+      "vertices": 1585,
+      "tetrahedra": 5507,
+      "boundary_triangles": 2646,
+      "pinned_nodes": 620,
+      "coating_triangles": 1479,
+      "volume_mm3": 1419.7058032241825,
+      "bond_triangles": 1167,
+      "max_interface_gap_m": 2.276346715702767e-05,
+      "free_surface_area_mm2": 621.9565218031771,
+      "source_volume_mm3": 1420.4817535663087,
+      "sampled_surface_deviation_m": 2.2211658233099904e-05,
+      "max_tet_edge_condition": 271.7692054415534,
+      "min_tet_singular_m": 3.3809283225631915e-06,
+      "bounds_sensor_m": [
+        [
+          -0.010257579663604173,
+          -0.008717744686983933,
+          -0.006360282996691607
+        ],
+        [
+          0.010268265381455421,
+          0.008704840175559411,
+          0.006371757394729571
+        ]
+      ],
+      "local_refinement": {
+        "original_vertices": 1262,
+        "original_tetrahedra": 4701,
+        "original_coating_triangles": 833,
+        "added_vertices": 323,
+        "source_sha256": "c7ddf259729f8c009b2b3c0429809ca1b5b05bfef693ab4fdb777b52f740e83e",
+        "radius_m": 0.007,
+        "min_edge_m": 0.001
+      }
+    },
+    {
+      "finger": "ring",
+      "body_path": "/revo3_single/Geometry/world/right_ring_MPR_link/right_ring_MCP_link/right_ring_PIP_link/right_ring_DIP_link",
+      "body_name": "right_ring_DIP_link",
+      "visual_path": "/revo3_single/Geometry/world/right_ring_MPR_link/right_ring_MCP_link/right_ring_PIP_link/right_ring_DIP_link/right_ring_DIP_rubber_link",
+      "collision_path": "/revo3_single/Geometry/world/right_ring_MPR_link/right_ring_MCP_link/right_ring_PIP_link/right_ring_DIP_link/right_ring_DIP_rubber_link_1",
+      "vertices": 1588,
+      "tetrahedra": 5494,
+      "boundary_triangles": 2642,
+      "pinned_nodes": 620,
+      "coating_triangles": 1475,
+      "volume_mm3": 1419.7059333388438,
+      "bond_triangles": 1167,
+      "max_interface_gap_m": 2.2763362332330354e-05,
+      "free_surface_area_mm2": 621.9565888164096,
+      "source_volume_mm3": 1420.4817688177316,
+      "sampled_surface_deviation_m": 2.2210768167502226e-05,
+      "max_tet_edge_condition": 408.04634315871533,
+      "min_tet_singular_m": 5.86041890987267e-06,
+      "bounds_sensor_m": [
+        [
+          -0.01027729792532539,
+          -0.008710308801716186,
+          -0.006370437214833705
+        ],
+        [
+          0.010271883840475018,
+          0.008722285431765515,
+          0.006374843785650709
+        ]
+      ],
+      "local_refinement": {
+        "original_vertices": 1267,
+        "original_tetrahedra": 4693,
+        "original_coating_triangles": 833,
+        "added_vertices": 321,
+        "source_sha256": "5cd31290cf0f52944a57d43c0edc4a68ad5d73a168fd2f75d2462ad6eb5c4e83",
+        "radius_m": 0.007,
+        "min_edge_m": 0.001
+      }
+    },
+    {
+      "finger": "little",
+      "body_path": "/revo3_single/Geometry/world/right_little_MPR_link/right_little_MCP_link/right_little_PIP_link/right_little_DIP_link",
+      "body_name": "right_little_DIP_link",
+      "visual_path": "/revo3_single/Geometry/world/right_little_MPR_link/right_little_MCP_link/right_little_PIP_link/right_little_DIP_link/right_little_DIP_rubber_link",
+      "collision_path": "/revo3_single/Geometry/world/right_little_MPR_link/right_little_MCP_link/right_little_PIP_link/right_little_DIP_link/right_little_DIP_rubber_link_1",
+      "vertices": 1544,
+      "tetrahedra": 5303,
+      "boundary_triangles": 2618,
+      "pinned_nodes": 620,
+      "coating_triangles": 1451,
+      "volume_mm3": 1419.7058902130314,
+      "bond_triangles": 1167,
+      "max_interface_gap_m": 2.276336620482384e-05,
+      "free_surface_area_mm2": 621.9565561927215,
+      "source_volume_mm3": 1420.4817819552804,
+      "sampled_surface_deviation_m": 2.2210768092107874e-05,
+      "max_tet_edge_condition": 271.75654054488456,
+      "min_tet_singular_m": 4.189793594797577e-06,
+      "bounds_sensor_m": [
+        [
+          -0.010339449248225057,
+          -0.008908091686878231,
+          -0.006591165653953106
+        ],
+        [
+          0.010329583824139973,
+          0.008913293022610388,
+          0.006590394004592621
+        ]
+      ],
+      "local_refinement": {
+        "original_vertices": 1235,
+        "original_tetrahedra": 4530,
+        "original_coating_triangles": 833,
+        "added_vertices": 309,
+        "source_sha256": "9f5077a3ac8fb1d195314493e48cd2a7b47b63096c7dd5d0c8955e0dfb616f4f",
+        "radius_m": 0.007,
+        "min_edge_m": 0.001
+      }
+    }
+  ],
+  "local_refinement": {
+    "method": "single-pass conforming edge bisection",
+    "preset": "taccel-scale",
+    "radius_m": 0.007,
+    "min_edge_m": 0.001,
+    "normal_z_min": 0.2,
+    "geometry": "Original piecewise planar boundary and original fixed nodes preserved exactly.",
+    "interface_diagnostics": "Distances and normal dots inherited from each original boundary face; not resampled CAD distances.",
+    "source_manifest_sha256": "084db7cd281d8fa82101f544010c8ba2fb1015489f37b5b2176810ddd7b93080"
+  }
+}

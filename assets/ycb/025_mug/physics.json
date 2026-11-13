@@ -1,0 +1,23 @@
+{
+ "source_vertices": 8187,
+ "source_faces": 16384,
+ "source_watertight": false,
+ "attempts": [
+  {
+   "target": 2500,
+   "faces": 2500,
+   "watertight": true,
+   "ok": true
+  }
+ ],
+ "faces": 2500,
+ "vertices": 1246,
+ "volume_m3": 0.00013677152000971622,
+ "extents_m": [
+  0.11653075274080038,
+  0.09285100037232041,
+  0.0811589999248099
+ ],
+ "source_to_physics_max_m": 0.0014146669097308629,
+ "source_to_physics_p95_m": 0.0005005780016240011
+}

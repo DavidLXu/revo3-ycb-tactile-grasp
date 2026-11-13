@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "revo3-ycb-grasp"
+version = "0.1.0"
+description = "Revo3 right hand grasping YCB objects with simulated FEM fingertip gels (GPU IPC), with an interactive slider demo"
+requires-python = ">=3.10"
+dependencies = [
+    "newton==1.6.1",
+    "warp-lang==1.17.0",
+    "numpy",
+    "scipy>=1.11,<2",
+    "trimesh>=4,<5",
+    "viser>=1.0",
+    "Pillow",
+]
+
+[project.optional-dependencies]
+# Only needed to plan grasps for new objects (signed-distance queries and mesh decimation).
+plan = ["open3d>=0.18", "matplotlib"]
+
+[project.scripts]
+revo3-grasp-app = "revo3_grasp.app:main"
+revo3-grasp-run = "revo3_grasp.run_grasp:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

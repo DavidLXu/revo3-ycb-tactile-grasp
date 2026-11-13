@@ -1,0 +1,2400 @@
+[
+ {
+  "path": "/Revo3/joints/right_hand_base_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [],
+  "body1": [
+   "/Revo3/right_hand_base_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_middle_MPR_joint",
+  "type": "PhysicsRevoluteJoint",
+  "body0": [
+   "/Revo3/right_hand_base_link"
+  ],
+  "body1": [
+   "/Revo3/right_middle_MPR_link"
+  ],
+  "pos0": [
+   -0.00794102344661951,
+   0.012531638145446777,
+   0.10792715102434158
+  ],
+  "rot0": [
+   0.009802686050534248,
+   0.0,
+   -0.20526862144470215,
+   0.9786565899848938
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   0.009802686050534248,
+   0.0,
+   -0.20526862144470215,
+   0.9786565899848938
+  ],
+  "attrs": {
+   "physics:axis": "X",
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "physics:lowerLimit": -20.001956939697266,
+   "physics:upperLimit": 24.99814796447754,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_thumb_CMP_joint",
+  "type": "PhysicsRevoluteJoint",
+  "body0": [
+   "/Revo3/right_hand_base_link"
+  ],
+  "body1": [
+   "/Revo3/right_thumb_CMP_link"
+  ],
+  "pos0": [
+   0.001997836632654071,
+   0.019535871222615242,
+   0.052027974277734756
+  ],
+  "rot0": [
+   0.7071067690849304,
+   0.0,
+   0.7071067690849304,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   0.7071067690849304,
+   0.0,
+   0.7071067690849304,
+   0.0
+  ],
+  "attrs": {
+   "physics:axis": "X",
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "physics:lowerLimit": 0.0,
+   "physics:upperLimit": 110.00789642333984,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_index_MPR_joint",
+  "type": "PhysicsRevoluteJoint",
+  "body0": [
+   "/Revo3/right_hand_base_link"
+  ],
+  "body1": [
+   "/Revo3/right_index_MPR_link"
+  ],
+  "pos0": [
+   -0.007293689996004105,
+   0.036976393312215805,
+   0.09781117737293243
+  ],
+  "rot0": [
+   0.028660569339990616,
+   0.0,
+   0.0,
+   0.999589204788208
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   0.028660569339990616,
+   0.0,
+   0.0,
+   0.999589204788208
+  ],
+  "attrs": {
+   "physics:axis": "X",
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "physics:lowerLimit": -9.998113632202148,
+   "physics:upperLimit": 30.000070571899414,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_ring_MPR_joint",
+  "type": "PhysicsRevoluteJoint",
+  "body0": [
+   "/Revo3/right_hand_base_link"
+  ],
+  "body1": [
+   "/Revo3/right_ring_MPR_link"
+  ],
+  "pos0": [
+   -0.008088422939181328,
+   -0.01245083473622799,
+   0.10383613407611847
+  ],
+  "rot0": [
+   -0.009648329578340054,
+   0.0,
+   0.1215333342552185,
+   0.9925404787063599
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   -0.009648329578340054,
+   0.0,
+   0.1215333342552185,
+   0.9925404787063599
+  ],
+  "attrs": {
+   "physics:axis": "X",
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "physics:lowerLimit": -24.99814796447754,
+   "physics:upperLimit": 20.001956939697266,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_little_MPR_joint",
+  "type": "PhysicsRevoluteJoint",
+  "body0": [
+   "/Revo3/right_hand_base_link"
+  ],
+  "body1": [
+   "/Revo3/right_little_MPR_link"
+  ],
+  "pos0": [
+   -0.007023245561867952,
+   -0.036511898040771484,
+   0.09051579236984253
+  ],
+  "rot0": [
+   -0.028607627376914024,
+   0.0,
+   -0.052633076906204224,
+   0.9982040524482727
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   -0.028607627376914024,
+   0.0,
+   -0.052633076906204224,
+   0.9982040524482727
+  ],
+  "attrs": {
+   "physics:axis": "X",
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "physics:lowerLimit": -30.000070571899414,
+   "physics:upperLimit": 9.998113632202148,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_plam_touch_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_hand_base_link"
+  ],
+  "body1": [
+   "/Revo3/right_plam_touch_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_plam_rubber_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_hand_base_link"
+  ],
+  "body1": [
+   "/Revo3/right_plam_rubber_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_plam_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_hand_base_link"
+  ],
+  "body1": [
+   "/Revo3/right_plam_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_palm_center",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_hand_base_link"
+  ],
+  "body1": [
+   "/Revo3/right_palm"
+  ],
+  "pos0": [
+   0.01549999974668026,
+   0.0,
+   0.054999999701976776
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_middle_MCP_joint",
+  "type": "PhysicsRevoluteJoint",
+  "body0": [
+   "/Revo3/right_middle_MPR_link"
+  ],
+  "body1": [
+   "/Revo3/right_middle_MCP_link"
+  ],
+  "pos0": [
+   0.001874999376013875,
+   0.0002912314666900784,
+   0.015999948605895042
+  ],
+  "rot0": [
+   0.7138280272483826,
+   0.0,
+   0.01431247591972351,
+   0.7001748085021973
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   0.7138280272483826,
+   0.0,
+   0.01431247591972351,
+   0.7001748085021973
+  ],
+  "attrs": {
+   "physics:axis": "X",
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "physics:lowerLimit": -5.299859523773193,
+   "physics:upperLimit": 90.69921875,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_thumb_CMR_joint",
+  "type": "PhysicsRevoluteJoint",
+  "body0": [
+   "/Revo3/right_thumb_CMP_link"
+  ],
+  "body1": [
+   "/Revo3/right_thumb_CMR_link"
+  ],
+  "pos0": [
+   0.0,
+   0.009464127011597157,
+   -3.194241435267031e-05
+  ],
+  "rot0": [
+   0.7071067690849304,
+   0.0,
+   0.00012059292930644006,
+   -0.7071067690849304
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   0.7071067690849304,
+   0.0,
+   0.00012059292930644006,
+   -0.7071067690849304
+  ],
+  "attrs": {
+   "physics:axis": "X",
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "physics:lowerLimit": -24.201736450195312,
+   "physics:upperLimit": 81.80118560791016,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_index_MCP_joint",
+  "type": "PhysicsRevoluteJoint",
+  "body0": [
+   "/Revo3/right_index_MPR_link"
+  ],
+  "body1": [
+   "/Revo3/right_index_MCP_link"
+  ],
+  "pos0": [
+   0.0018579730531200767,
+   0.0008755730232223868,
+   0.015980618074536324
+  ],
+  "rot0": [
+   0.7270452976226807,
+   0.0,
+   0.042119864374399185,
+   0.685296356678009
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   0.7270452976226807,
+   0.0,
+   0.042119864374399185,
+   0.685296356678009
+  ],
+  "attrs": {
+   "physics:axis": "X",
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "physics:lowerLimit": -5.299859523773193,
+   "physics:upperLimit": 90.69921875,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_ring_MCP_joint",
+  "type": "PhysicsRevoluteJoint",
+  "body0": [
+   "/Revo3/right_ring_MPR_link"
+  ],
+  "body1": [
+   "/Revo3/right_ring_MCP_link"
+  ],
+  "pos0": [
+   0.0018481246661394835,
+   -0.0002918087411671877,
+   0.016003064811229706
+  ],
+  "rot0": [
+   0.7003210186958313,
+   0.0,
+   -0.01458851806819439,
+   0.7136788964271545
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   0.7003210186958313,
+   0.0,
+   -0.01458851806819439,
+   0.7136788964271545
+  ],
+  "attrs": {
+   "physics:axis": "X",
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "physics:lowerLimit": -5.299859523773193,
+   "physics:upperLimit": 90.69921875,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_little_MCP_joint",
+  "type": "PhysicsRevoluteJoint",
+  "body0": [
+   "/Revo3/right_little_MPR_link"
+  ],
+  "body1": [
+   "/Revo3/right_little_MCP_link"
+  ],
+  "pos0": [
+   0.00180966651532799,
+   -0.0008786756079643965,
+   0.015985989943146706
+  ],
+  "rot0": [
+   0.6865895390510559,
+   0.0,
+   -0.0446016862988472,
+   0.7256759405136108
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   0.6865895390510559,
+   0.0,
+   -0.0446016862988472,
+   0.7256759405136108
+  ],
+  "attrs": {
+   "physics:axis": "X",
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "physics:lowerLimit": -5.299859523773193,
+   "physics:upperLimit": 90.69921875,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_plam_led_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_plam_link"
+  ],
+  "body1": [
+   "/Revo3/right_plam_led_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_middle_PIP_joint",
+  "type": "PhysicsRevoluteJoint",
+  "body0": [
+   "/Revo3/right_middle_MCP_link"
+  ],
+  "body1": [
+   "/Revo3/right_middle_PIP_link"
+  ],
+  "pos0": [
+   0.00026415049796923995,
+   0.0009556515142321587,
+   0.04699791967868805
+  ],
+  "rot0": [
+   0.7138280272483826,
+   0.0,
+   0.01431247591972351,
+   0.7001748085021973
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   0.7138280272483826,
+   0.0,
+   0.01431247591972351,
+   0.7001748085021973
+  ],
+  "attrs": {
+   "physics:axis": "X",
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "physics:lowerLimit": -8.319347381591797,
+   "physics:upperLimit": 91.6789779663086,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_middle_MCP_touch_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_middle_MCP_link"
+  ],
+  "body1": [
+   "/Revo3/right_middle_MCP_touch_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_middle_MCP_rubber_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_middle_MCP_link"
+  ],
+  "body1": [
+   "/Revo3/right_middle_MCP_rubber_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_thumb_MCP_joint",
+  "type": "PhysicsRevoluteJoint",
+  "body0": [
+   "/Revo3/right_thumb_CMR_link"
+  ],
+  "body1": [
+   "/Revo3/right_thumb_MCP_link"
+  ],
+  "pos0": [
+   0.0,
+   0.011999952606856823,
+   0.0
+  ],
+  "rot0": [
+   0.7558534145355225,
+   0.0,
+   0.6547408699989319,
+   0.00011166228068759665
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   0.7558534145355225,
+   0.0,
+   0.6547408699989319,
+   0.00011166228068759665
+  ],
+  "attrs": {
+   "physics:axis": "X",
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "physics:lowerLimit": -4.841493606567383,
+   "physics:upperLimit": 76.15754699707031,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_index_PIP_joint",
+  "type": "PhysicsRevoluteJoint",
+  "body0": [
+   "/Revo3/right_index_MCP_link"
+  ],
+  "body1": [
+   "/Revo3/right_index_PIP_link"
+  ],
+  "pos0": [
+   0.00022176455240696669,
+   0.002871088683605194,
+   0.04692009091377258
+  ],
+  "rot0": [
+   0.7270452976226807,
+   0.0,
+   0.042119864374399185,
+   0.685296356678009
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   0.7270452976226807,
+   0.0,
+   0.042119864374399185,
+   0.685296356678009
+  ],
+  "attrs": {
+   "physics:axis": "X",
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "physics:lowerLimit": -8.319347381591797,
+   "physics:upperLimit": 91.6789779663086,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_index_MCP_touch_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_index_MCP_link"
+  ],
+  "body1": [
+   "/Revo3/right_index_MCP_touch_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_index_MCP_rubber_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_index_MCP_link"
+  ],
+  "body1": [
+   "/Revo3/right_index_MCP_rubber_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_ring_PIP_joint",
+  "type": "PhysicsRevoluteJoint",
+  "body0": [
+   "/Revo3/right_ring_MCP_link"
+  ],
+  "body1": [
+   "/Revo3/right_ring_PIP_link"
+  ],
+  "pos0": [
+   0.00018521335732657462,
+   -0.0009571650880388916,
+   0.046998266130685806
+  ],
+  "rot0": [
+   0.7003210186958313,
+   0.0,
+   -0.01458851806819439,
+   0.7136788964271545
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   0.7003210186958313,
+   0.0,
+   -0.01458851806819439,
+   0.7136788964271545
+  ],
+  "attrs": {
+   "physics:axis": "X",
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "physics:lowerLimit": -8.319347381591797,
+   "physics:upperLimit": 91.6789779663086,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_ring_MCP_touch_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_ring_MCP_link"
+  ],
+  "body1": [
+   "/Revo3/right_ring_MCP_touch_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_ring_MCP_rubber_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_ring_MCP_link"
+  ],
+  "body1": [
+   "/Revo3/right_ring_MCP_rubber_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_little_PIP_joint",
+  "type": "PhysicsRevoluteJoint",
+  "body0": [
+   "/Revo3/right_little_MCP_link"
+  ],
+  "body1": [
+   "/Revo3/right_little_PIP_link"
+  ],
+  "pos0": [
+   7.990166341187432e-05,
+   -0.002879225881770253,
+   0.0469200499355793
+  ],
+  "rot0": [
+   0.6865895390510559,
+   0.0,
+   -0.0446016862988472,
+   0.7256759405136108
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   0.6865895390510559,
+   0.0,
+   -0.0446016862988472,
+   0.7256759405136108
+  ],
+  "attrs": {
+   "physics:axis": "X",
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "physics:lowerLimit": -8.319347381591797,
+   "physics:upperLimit": 91.6789779663086,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_little_MCP_touch_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_little_MCP_link"
+  ],
+  "body1": [
+   "/Revo3/right_little_MCP_touch_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_little_MCP_rubber_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_little_MCP_link"
+  ],
+  "body1": [
+   "/Revo3/right_little_MCP_rubber_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_middle_DIP_joint",
+  "type": "PhysicsRevoluteJoint",
+  "body0": [
+   "/Revo3/right_middle_PIP_link"
+  ],
+  "body1": [
+   "/Revo3/right_middle_DIP_link"
+  ],
+  "pos0": [
+   0.00016716901154723018,
+   0.0006001648143865168,
+   0.029516687616705894
+  ],
+  "rot0": [
+   0.7138280272483826,
+   0.0,
+   0.01431247591972351,
+   0.7001748085021973
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   0.7138280272483826,
+   0.0,
+   0.01431247591972351,
+   0.7001748085021973
+  ],
+  "attrs": {
+   "physics:axis": "X",
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "physics:lowerLimit": -18.449241638183594,
+   "physics:upperLimit": 91.54719543457031,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_middle_PIP_touch_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_middle_PIP_link"
+  ],
+  "body1": [
+   "/Revo3/right_middle_PIP_touch_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_middle_PIP_rubber_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_middle_PIP_link"
+  ],
+  "body1": [
+   "/Revo3/right_middle_PIP_rubber_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_thumb_PIP_joint",
+  "type": "PhysicsRevoluteJoint",
+  "body0": [
+   "/Revo3/right_thumb_MCP_link"
+  ],
+  "body1": [
+   "/Revo3/right_thumb_PIP_link"
+  ],
+  "pos0": [
+   0.0,
+   0.04260921850800514,
+   0.0
+  ],
+  "rot0": [
+   0.7558534145355225,
+   0.0,
+   0.6547408699989319,
+   0.00011166228068759665
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   0.7558534145355225,
+   0.0,
+   0.6547408699989319,
+   0.00011166228068759665
+  ],
+  "attrs": {
+   "physics:axis": "X",
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "physics:lowerLimit": -15.000035285949707,
+   "physics:upperLimit": 88.9975357055664,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_thumb_MCP_touch_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_thumb_MCP_link"
+  ],
+  "body1": [
+   "/Revo3/right_thumb_MCP_touch_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_thumb_MCP_rubber_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_thumb_MCP_link"
+  ],
+  "body1": [
+   "/Revo3/right_thumb_MCP_rubber_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_index_DIP_joint",
+  "type": "PhysicsRevoluteJoint",
+  "body0": [
+   "/Revo3/right_index_PIP_link"
+  ],
+  "body1": [
+   "/Revo3/right_index_DIP_link"
+  ],
+  "pos0": [
+   0.00014054696657694876,
+   0.0018030924256891012,
+   0.029467813670635223
+  ],
+  "rot0": [
+   0.7270452976226807,
+   0.0,
+   0.042119864374399185,
+   0.685296356678009
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   0.7270452976226807,
+   0.0,
+   0.042119864374399185,
+   0.685296356678009
+  ],
+  "attrs": {
+   "physics:axis": "X",
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "physics:lowerLimit": -18.449241638183594,
+   "physics:upperLimit": 91.54719543457031,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_index_PIP_touch_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_index_PIP_link"
+  ],
+  "body1": [
+   "/Revo3/right_index_PIP_touch_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_index_PIP_rubber_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_index_PIP_link"
+  ],
+  "body1": [
+   "/Revo3/right_index_PIP_rubber_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_ring_DIP_joint",
+  "type": "PhysicsRevoluteJoint",
+  "body0": [
+   "/Revo3/right_ring_PIP_link"
+  ],
+  "body1": [
+   "/Revo3/right_ring_DIP_link"
+  ],
+  "pos0": [
+   0.00011759316839743406,
+   -0.0006011166260577738,
+   0.029516907408833504
+  ],
+  "rot0": [
+   0.7003210186958313,
+   0.0,
+   -0.01458851806819439,
+   0.7136788964271545
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   0.7003210186958313,
+   0.0,
+   -0.01458851806819439,
+   0.7136788964271545
+  ],
+  "attrs": {
+   "physics:axis": "X",
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "physics:lowerLimit": -18.449241638183594,
+   "physics:upperLimit": 91.54719543457031,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_ring_PIP_touch_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_ring_PIP_link"
+  ],
+  "body1": [
+   "/Revo3/right_ring_PIP_touch_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_ring_PIP_tubber_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_ring_PIP_link"
+  ],
+  "body1": [
+   "/Revo3/right_ring_PIP_tubber_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_little_DIP_joint",
+  "type": "PhysicsRevoluteJoint",
+  "body0": [
+   "/Revo3/right_little_PIP_link"
+  ],
+  "body1": [
+   "/Revo3/right_little_DIP_link"
+  ],
+  "pos0": [
+   5.145111936144531e-05,
+   -0.0018082043388858438,
+   0.029467791318893433
+  ],
+  "rot0": [
+   0.6865895390510559,
+   0.0,
+   -0.0446016862988472,
+   0.7256759405136108
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   0.6865895390510559,
+   0.0,
+   -0.0446016862988472,
+   0.7256759405136108
+  ],
+  "attrs": {
+   "physics:axis": "X",
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "physics:lowerLimit": -18.449241638183594,
+   "physics:upperLimit": 91.54719543457031,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_little_PIP_touch_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_little_PIP_link"
+  ],
+  "body1": [
+   "/Revo3/right_little_PIP_touch_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_little_PIP_rubber_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_little_PIP_link"
+  ],
+  "body1": [
+   "/Revo3/right_little_PIP_rubber_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_middle_DIP_rubber_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_middle_DIP_link"
+  ],
+  "body1": [
+   "/Revo3/right_middle_DIP_rubber_link"
+  ],
+  "pos0": [
+   -0.00016716901154723018,
+   -0.0006001648143865168,
+   -0.029516687616705894
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_thumb_DIP_joint",
+  "type": "PhysicsRevoluteJoint",
+  "body0": [
+   "/Revo3/right_thumb_PIP_link"
+  ],
+  "body1": [
+   "/Revo3/right_thumb_DIP_link"
+  ],
+  "pos0": [
+   0.0004946312983520329,
+   0.03200031444430351,
+   7.566778367618099e-05
+  ],
+  "rot0": [
+   0.7558534145355225,
+   0.0,
+   0.6547408699989319,
+   0.00011166228068759665
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   0.7558534145355225,
+   0.0,
+   0.6547408699989319,
+   0.00011166228068759665
+  ],
+  "attrs": {
+   "physics:axis": "X",
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "physics:lowerLimit": -9.167325019836426,
+   "physics:upperLimit": 100.93224334716797,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_thumb_PIP_touch_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_thumb_PIP_link"
+  ],
+  "body1": [
+   "/Revo3/right_thumb_PIP_touch_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_thumb_PIP_rubber_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_thumb_PIP_link"
+  ],
+  "body1": [
+   "/Revo3/right_thumb_PIP_rubber_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_index_DIP_rubber_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_index_DIP_link"
+  ],
+  "body1": [
+   "/Revo3/right_index_DIP_rubber_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_ring_DIP_rubber_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_ring_DIP_link"
+  ],
+  "body1": [
+   "/Revo3/right_ring_DIP_rubber_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_little_DIP_rubber_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_little_DIP_link"
+  ],
+  "body1": [
+   "/Revo3/right_little_DIP_rubber_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_index_tip_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_index_DIP_link"
+  ],
+  "body1": [
+   "/Revo3/right_index_tip_Link"
+  ],
+  "pos0": [
+   0.00839999970048666,
+   0.0005000000237487257,
+   0.009999999776482582
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_middle_tip_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_middle_DIP_link"
+  ],
+  "body1": [
+   "/Revo3/right_middle_tip_Link"
+  ],
+  "pos0": [
+   0.00839999970048666,
+   -0.0,
+   0.009999999776482582
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_ring_tip_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_ring_DIP_link"
+  ],
+  "body1": [
+   "/Revo3/right_ring_tip_Link"
+  ],
+  "pos0": [
+   0.00839999970048666,
+   -0.0001849999971454963,
+   0.009999999776482582
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_little_tip_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_little_DIP_link"
+  ],
+  "body1": [
+   "/Revo3/right_little_tip_Link"
+  ],
+  "pos0": [
+   0.00839999970048666,
+   -0.0012184999650344253,
+   0.009999999776482582
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_thumb_DIP_rubber_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_thumb_DIP_link"
+  ],
+  "body1": [
+   "/Revo3/right_thumb_DIP_rubber_link"
+  ],
+  "pos0": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ },
+ {
+  "path": "/Revo3/joints/right_thumb_tip_joint",
+  "type": "PhysicsFixedJoint",
+  "body0": [
+   "/Revo3/right_thumb_DIP_link"
+  ],
+  "body1": [
+   "/Revo3/right_thumb_tip_Link"
+  ],
+  "pos0": [
+   0.0,
+   0.009999999776482582,
+   0.009800000116229057
+  ],
+  "rot0": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "pos1": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rot1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "attrs": {
+   "physics:breakForce": Infinity,
+   "physics:breakTorque": Infinity,
+   "physics:collisionEnabled": false,
+   "physics:excludeFromArticulation": false,
+   "physics:jointEnabled": true,
+   "purpose": "default",
+   "visibility": "inherited"
+  }
+ }
+]

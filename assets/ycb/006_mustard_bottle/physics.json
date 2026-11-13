@@ -1,0 +1,25 @@
+{
+ "source_vertices": 8193,
+ "source_faces": 16384,
+ "source_watertight": false,
+ "source_repair": "largest component + 0.4 mm voxel remesh (source has non-manifold edges)",
+ "remeshed_faces": 791620,
+ "attempts": [
+  {
+   "target": 4000,
+   "faces": 4000,
+   "watertight": true,
+   "ok": true
+  }
+ ],
+ "faces": 4000,
+ "vertices": 2002,
+ "volume_m3": 0.0006206596750613593,
+ "extents_m": [
+  0.09734999999999999,
+  0.06665,
+  0.19155
+ ],
+ "source_to_physics_max_m": 0.0010865823198615953,
+ "source_to_physics_p95_m": 0.00044137115651323523
+}
